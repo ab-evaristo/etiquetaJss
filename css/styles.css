@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -22,6 +25,7 @@ h1{
     text-align: center;
     margin-bottom: 10px;
     background-color: #383d46;
+    background-color: #003363;
     color: #fff;
 }
 
@@ -34,6 +38,10 @@ h1{
     width: calc(100% - 20px);
     border: 1px solid #fff;
     margin-top: 10px;
+}
+
+.fr1{
+    margin-top: -5px;
 }
 
 input{
@@ -63,7 +71,35 @@ button{
     background-color: #eb6023;
 }
 
+.button-printer:hover{
+    background-color: #EEEEEC;
+    border-color: #003363;   
+    color: #383d46; 
+    border-width: 1.5px;
+    border-style: solid;
+}
+
 .button-clean{
     margin-left: 10px;
     background-color: #2fe438;
+}
+
+.button-clean:hover{
+    background-color: #EEEEEC;
+    border-color: #003363;   
+    color: #383d46; 
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+.container-footer{
+    background-color: #383d46;
+    background-color: #003363;
+    margin-top: 10px;
+}
+.container-footer-copyright{
+    font-size: 12px;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
 }
